@@ -149,7 +149,7 @@ export declare class File {
 
 export declare class Paths {
   /*
-   * A property containing the document directory – a place to store files that are safe from being deleted by the system.
+   * A property containing the document directory – a place to store permanent files that won't be removed by the system when the device is low on storage.
    */
   static get document(): Directory;
   /*
